@@ -1,0 +1,22 @@
+Arrays are ways to store elements in contiguous memory locations.
+
+Advantages:
+1. Store multiple elements in a single variable
+2. Accessing would be easier as it is index based.
+
+Disadvantages:
+1. Adding and removing elements in middle would be difficult as we need to move rest of the elements into it corresponding locations
+
+Common terms:
+
+Subarray -
+ A range of contiguous values within an array.
+    Example: given an array [2, 3, 6, 1, 5, 4], [3, 6, 1] is a subarray while [3, 1, 5] is not a subarray.
+Subsequence - 
+ A sequence that can be derived from the given sequence by deleting some or no elements without changing the order of the remaining elements.
+    Example: given an array [2, 3, 6, 1, 5, 4], [3, 1, 5] is a subsequence but [3, 5, 1] is not a subsequence.
+
+Techniques to use in arrays:
+
+1. Sliding Window
+2. 

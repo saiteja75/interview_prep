@@ -1,0 +1,28 @@
+When to use Sliding Window?
+-> This Technique of Sliding window is mostly useful to problems dealing with subarrays in numbers and substrings
+in strings.
+
+-> Problem which expects to maintain the order in the result and not to alter the input series to get the result
+
+Example:
+Minimum Window SubString (https://leetcode.com/problems/minimum-window-substring/description/)
+
+How to Use Sliding Window?
+Steps:
+1. We have to use two pointers(start and end) which would represent window (that would to the expected output in the end)
+2. we should be moving the end pointer until you reach a specific criteria(criteria would be based on the question)
+3. Once the criteria is valid this window could be the solution based on the problems [In case of finding maximum window]
+4. In Some cases[Finding Minimum Window] when need to start moving the start pointer until you reach the expected criteria
+
+At Step 3 or Step 4 you would reach to the solution
+
+Expected Structure of the output for these kind of problems would be as following:
+1. Return the length of the window
+2. Return the content present in the window
+3. Return the frequency of the occurances of the criteria
+
+What is Sliding Window in simple terms:
+-> the two pointers usually move in the same direction will never overtake each other. This ensures that each value is only visited at most twice and the time complexity is still O(n)
+
+
+
