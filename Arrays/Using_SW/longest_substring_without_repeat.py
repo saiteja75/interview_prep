@@ -48,12 +48,20 @@ def lengthOfLongestSubstring(s: str) -> int:
         #Hashset
         hashSet = set()
         
+        # increment end to increase the size of the window and track non-repeating characters
         while(end<n):
+            # if character is not there in hashset 
             if s[end] not in hashSet:
+                # add character in hashset
                 hashSet.add(s[end])
+                # increment end pointer
                 end+=1
+                # calculate maxLength
                 maxLength = max(maxLength,end-start+1)
             else:
+                 # remove start pointer character 
+                 # why to remove start pointer character? why not end point character
+                 # because we are trying get non-repeating substring if we remove from end its not valid substring
                  hashSet.remove(s[start])
                  start+=1
         
