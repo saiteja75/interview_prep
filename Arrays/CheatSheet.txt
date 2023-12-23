@@ -18,5 +18,10 @@ Subsequence -
 
 Techniques to use in arrays:
 
-1. Sliding Window
-2. 
+1. Sliding Window 
+    - Refer Techniques folder for more info
+2. Two pointers 
+    - Two pointers is a more general version of sliding window where the pointers can cross each other and can be on different arrays. 
+    - Moving of the two pointers would be based on the problem criteria 
+3. Traversing from Right
+    - Sometimes you can traverse the array starting from the right instead of the conventional approach of from the left

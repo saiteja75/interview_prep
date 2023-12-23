@@ -24,5 +24,7 @@ Expected Structure of the output for these kind of problems would be as followin
 What is Sliding Window in simple terms:
 -> the two pointers usually move in the same direction will never overtake each other. This ensures that each value is only visited at most twice and the time complexity is still O(n)
 
+REFER TO PROBLEM IN Arrays-> Using_SW for problems
+
 
 
