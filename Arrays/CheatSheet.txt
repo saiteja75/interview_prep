@@ -25,3 +25,8 @@ Techniques to use in arrays:
     - Moving of the two pointers would be based on the problem criteria 
 3. Traversing from Right
     - Sometimes you can traverse the array starting from the right instead of the conventional approach of from the left
+4. Sorting
+    - Sorting the array would always helps in some of the problems, we can use binary search approach to solve some problems but sorting will not
+    be helpful if we need to retain the order
+5. Precomputation
+    - Problems where sum or multiplication of subarray is involved we can use the pre computed value or hash for further solving the problem
