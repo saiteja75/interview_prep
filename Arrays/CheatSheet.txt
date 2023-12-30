@@ -30,3 +30,5 @@ Techniques to use in arrays:
     be helpful if we need to retain the order
 5. Precomputation
     - Problems where sum or multiplication of subarray is involved we can use the pre computed value or hash for further solving the problem
+6. Index as a hash key
+    -  f you are given a sequence and the interviewer asks for O(1) space, it might be possible to use the array itself as a hash table
