@@ -13,7 +13,7 @@ def isPalindrome(val):
     # comparing substring with reverse of substring and return 1 if valid else 0
     return 1 if val == val[::-1] else 0
 
-# Approach 1: Not soo efficient but useing two pointers
+# Approach 1: Not soo efficient but using two pointers
 def countSubstrings(s: str) -> int:
         # Length of the string
         n = len(s)
