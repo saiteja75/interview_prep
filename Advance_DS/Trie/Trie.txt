@@ -1,0 +1,53 @@
+Trie:
+a Tree based data structure that is used for storing some collection of strings 
+and performing efficient search operations on them.
+
+Trie follows some property that 
+- If two strings have a common prefix then they will have the same ancestor in the trie.
+- A trie can be used to sort a collection of strings alphabeticallyas well as 
+  search whether a string with a given prefix is present in the trie or not.
+
+Whats the use of trie?
+This data structure can be used to store and retrieve the data which is similar to hash map but trie has a 
+special advantage as it can be used for prefix based searching because of its way of storing the string
+
+Advantage:
+- Searching for a String even in the large collection of strings in a Trie data structure can be done in O(L) Time complexity, Where L is the number of words in the query string. 
+  This searching time could be even less than O(L) if the query string does not exist in the trie
+
+structure of trie:
+1. each node in the tree is hash set or array of all the alphabets and wordcount total words formed till that node
+2. each edge is the alphabet
+
+Inserting in Trie:
+1. If the inserting string is prefix already exist follow that path and insert the rest of the characters of
+   the characters into the trie
+2. If the incomming string is already matching the existing trie increment the wordCount of the end trieNode
+3. If it is a new string start forming the node in the trie nodes
+
+Searching in Trie:
+1. Iterate through each of the character of the given string, if character not found in the trie the string is not there in the trie
+
+This operation is used to search whether a string is present in the Trie data structure or not. There are two search approaches in the Trie data structure.
+
+Find whether the given word exists in Trie.
+Find whether any word that starts with the given prefix exists in Trie.
+
+Deleting in Trie:
+This operation is used to delete strings from the Trie data structure. There are three cases when deleting a word from Trie.
+
+1. The deleted word is a prefix of other words in Trie.
+2. The deleted word shares a common prefix with other words in Trie.
+3. The deleted word does not share any common prefix with other words in Trie.
+
+Time Complexity:
+
+O(n) for inserting, searching, deleting in trie
+
+Applications:
+1. autocomplete
+2. spelling checker
+3. Longest Prefix Matching Algorithm(Maximum Prefix Length Match)
+
+
+LINK: https://www.geeksforgeeks.org/introduction-to-trie-data-structure-and-algorithm-tutorials/
