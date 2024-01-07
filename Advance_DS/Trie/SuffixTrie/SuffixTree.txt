@@ -1,0 +1,12 @@
+What is suffix tree?
+suffix tree is collection of strings and compression version of trie.
+
+There are many ways to construct a suffix tree, but the semantics that is shared by most if not all types of suffix trees are as follows:
+
+1. A special character is appended to each sub-string.
+2. Each leaf node contains the starting position or index of the suffix it represents.
+3. The alphabets of any suffix are compressed and represented by a single node.
+
+- each unique suffix in the list is compressed together in a suffix tree.
+
+We can implement suffix trie using Ukkonen's Algorithm

@@ -1,0 +1,55 @@
+There are multiple algorithms to find substring which are following pattern. Below are some of the Patterns Searching algorithms:
+
+1. Rabin-Karp algorithm
+2. KMP algorithm
+
+
+Problem: 
+Input:  T[] = “THIS IS A TEST TEXT”, P[] = “TEST”
+Output: Pattern found at index 10
+
+Input:  T[] =  “AABAACAADAABAABA”, P[] =  “AABA”
+Output: Pattern found at index 0
+              Pattern found at index 9
+              Pattern found at index 12
+
+1. Rabin-Karp Algorithm:
+- In Normal Approach of Searching a given pattern we run through all the possible substrings to check pattern is
+found or not.
+
+- Rabin-Karp Algorithm is also similar to normal approach but in this algorithm we are going to
+  calculate hash value for the pattern and we calculate the hash value for each substring if only if
+  substring hash value matches with pattern hash value then we are going compare the individual character to match
+  the pattern.
+
+How is Hash Value calculated in Rabin-Karp?
+- The hash value is calculated using a rolling hash function, which allows you to update the hash value 
+  for a new substring by efficiently removing the contribution of the old character and adding the 
+  contribution of the new character. 
+
+Steps:
+1. Choose a suitable base and a modulus:
+    -Select a prime number ‘p‘ as the modulus. This choice helps avoid overflow issues and ensures a good distribution of hash values.
+    -Choose a base ‘b‘ (usually a prime number as well), which is often the size of the character set (e.g., 256 for ASCII characters).
+
+2. Initial hash value to 0
+
+3. Calculate the hash value of the pattern:
+    -Iterate over each character in the pattern from left to right.
+    -For each character ‘c’ at position ‘i’, 
+     calculate its contribution to the hash value as ‘c * (b^pattern_length – i – 1) % p’ 
+     and add it to ‘hash‘.
+    -This gives you the hash value for the entire pattern.
+
+4. Slide the pattern over the text: 
+    -start iterating the string to construct the sub-strings for pattern size.
+
+5. Update the hash value for each subsequent substring:
+
+    hash = (hash - (text[i - pattern_length] * (b^pattern_length - 1)) % p) * b + text[i]
+
+6. Compare hash values:
+    -When the hash value of a substring in the text matches the hash value of the pattern, it’s a potential match.
+    -If the hash values match, we should perform a character-by-character comparison
+
+
