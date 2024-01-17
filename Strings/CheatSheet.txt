@@ -7,4 +7,22 @@ Looking up in strings:(way of arranging the collection of strings)
     If two strings have a common prefix then they will have the same ancestor in the trie. A trie can be used to sort a collection of strings alphabetically as well as search 
     whether a string with a given prefix is present in the trie or not.
 2. Suffix Tree
+    All the suffixes of a string and each suffix will end with special character
+
+
+Techniques to use in strings:
+
+1. Counting Characters:
+    - Creating the count array(Of size 26) and Count the frequency of characters in a string. 
+
+2. Anagram:
+    - An anagram is word switch or word play. It is the result of rearranging the letters of a word or phrase to produce a new word or phrase, while using all the original letters only once
+
+    Ways to determine if the given strings are anagrams are not?
+    - Sort both the strings and check whether both are equal or not O(nlogn)
+    - Create a hash with the character frequency of the two strings and compare whether they both have same data or not
+    -
+
+3. 
+
 
