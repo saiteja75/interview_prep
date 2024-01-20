@@ -2,6 +2,10 @@ A string is a sequence of characters it is similar to Arrays
 
 all the techniques of arrays are applicable for strings as well
 
+Types:
+    -substring: continous character from string
+    -subsequence: not continous characters from string
+
 Looking up in strings:(way of arranging the collection of strings)
 1. Trie/Prefix Tree -
     If two strings have a common prefix then they will have the same ancestor in the trie. A trie can be used to sort a collection of strings alphabetically as well as search 
@@ -21,8 +25,14 @@ Techniques to use in strings:
     Ways to determine if the given strings are anagrams are not?
     - Sort both the strings and check whether both are equal or not O(nlogn)
     - Create a hash with the character frequency of the two strings and compare whether they both have same data or not
-    -
+    - Assign a prime number to each character and compute the value of the string by mulitpying in assigned prime number and check the multipier for the strings 
 
-3. 
+3. Palindrome:
+    - A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward as forward eg madam
+    
+    Ways to determine if the given string are palindrome or not?
+    - Revere the given string and compare original string and reverse string is equal or not. if equal then its a palindrome
+    - Two Pointers one from start and other from end, start comparing start value and end value and move Pointers 
+      respective pointer. if any point of time if the values won't match then it is not a palindrome
 
 
