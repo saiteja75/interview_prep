@@ -1,6 +1,7 @@
 # longest palindromic subsequence
 # LeetCode Problem: https://leetcode.com/problems/longest-palindromic-subsequence/
 '''
+!!!!!!!!!!!!!!!! NEED TO UNDERSTAND PLEASE REVISE !!!!!!!!!!!!!!!!!!
 Given a string s, find the longest palindromic subsequence's length in s.
 
 A subsequence is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.

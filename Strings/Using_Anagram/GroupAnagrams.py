@@ -7,6 +7,9 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
 '''
 
 # Approach 1: Using sorting the string and collect all the strings matching the sorted string
+from typing import DefaultDict
+
+
 def groupAnagrams(strs: List[str]) -> List[List[str]]:
     # hashmap to store the matching anagrams
     hashMap = {}
@@ -47,9 +50,9 @@ def getPrimes():
         
 def groupAnagrams(strs: List[str]) -> List[List[str]]:
     # get prime numbers for each character i.e 26 characters
-    alphaPrimes = self.getPrimes()
+    alphaPrimes = getPrimes()
     # hash map to group anagrams
-    hashMap = defaultdict(list)
+    hashMap = DefaultDict(list)
     # iterate through strs
     for i in range(len(strs)):
         # initial prime Multipier to calculate the total value of the string
