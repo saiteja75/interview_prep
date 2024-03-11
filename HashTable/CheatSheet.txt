@@ -1,0 +1,12 @@
+HashTable:
+-> It is a datastructue with maps a key with a value where key is computed based on a hash function(which make unique value)
+
+-> Hashing is the most common example of a space-time tradeoff. Instead of linearly searching an array 
+   every time to determine if an element is present, which takes O(n) time, 
+   we can traverse the array once and hash all the elements into a hash table. 
+   Determining if the element is present is a simple matter of hashing the element and seeing if it 
+   exists in the hash table, which is O(1) on average
+
+Possible ways to overcome of collision in key:
+-> Optional Chaining: adding all the values in the same key
+-> Open addressing: finding next empty slot to store the value
