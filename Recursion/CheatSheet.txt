@@ -1,0 +1,13 @@
+Recursion:
+
+Recursion is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem.
+
+All recursive functions contains two parts:
+
+1. A base case (or cases) defined, which defines when the recursion is stopped - otherwise it will go on forever!
+
+2. Breaking down the problem into smaller subproblems and invoking the recursive call
+
+TRY TO GET THE BASE CONDITION
+
+TRY TO SIMPLIFY THE PROBLEM AND THINK IN BRUTE FORCE APPROACH
