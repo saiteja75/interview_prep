@@ -1,0 +1,20 @@
+LinkedList
+1. a linked list is used to represent sequential data
+2. data is stored in sequential blocks of memory. Instead, each element contains an address of the next element. 
+3. It is a data structure consisting of a collection of nodes which together represent a sequence.
+
+Advantage:
+
+1. Insertion and Deletion is O(1) complexity
+
+Disadvantage:
+
+1. Accessing a element is linear time complexity i.e O(n)
+
+
+Techniques:
+
+1. Dummy Node
+2. Two Pointers
+3. Space (new LinkedList)
+4. Modification
