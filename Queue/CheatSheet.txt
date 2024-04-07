@@ -1,0 +1,7 @@
+Queue:
+
+-> It is a linear data structure
+-> Adding Element at end (REAR)
+-> Removing Element from start (FRONT)
+-> It is called FIFO
+
