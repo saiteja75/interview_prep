@@ -1,0 +1,6 @@
+Stack:
+
+-> It is linear data structure
+-> First In Last Out
+-> Inserting at top and deleting is also from top
+-> Stacks are an important way of supporting nested or recursive function calls and is used to implement depth-first search. Depth-first search can be implemented using recursion or a manual stack.
