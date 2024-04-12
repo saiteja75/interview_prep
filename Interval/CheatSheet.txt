@@ -1,0 +1,9 @@
+Intervals:
+Interval questions are a subset of array questions where you are given an array of two-element arrays (an interval) 
+and the two values represent a start and an end value.
+
+Techniques:
+
+-> Sort the array of intervals by its starting point
+-> Checking if two intervals overlap
+-> Merging two intervals
