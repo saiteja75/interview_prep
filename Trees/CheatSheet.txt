@@ -1,0 +1,23 @@
+Trees:
+-> It is Non-Linear Data Structure
+-> It Represents hierarchial structure with connected node
+
+Types of Trees:
+-> binary tree: each parent node can connect to atmost 2 child nodes
+-> ternary Trees
+-> N-array Trees
+-> binary search Trees
+
+Tree Traversal Technique:
+1. In-order traversal - Left -> Root -> Right
+2. Pre-order traversal - Root -> Left -> Right
+3. Post-order traversal - Left -> Right -> Root
+
+Binary Search Tree:
+1. all the node values left to the root node should be less than it
+2. all the node values right to the root node should be greater than it
+
+Techniques:
+1. Recursion
+2. Traversing By Level: Breadth first search
+3. Summation of nodes
