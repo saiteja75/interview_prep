@@ -1,0 +1,22 @@
+Graph:
+-> A graph is a structure containing a set of objects (nodes or vertices) where there can be edges 
+  between these nodes/vertices. Edges can be directed or undirected and can optionally have values (a weighted graph). 
+  
+-> Trees are undirected graphs in which any two vertices are connected by exactly one edge and there can be no cycles in the graph.
+
+-> A Single node can be considered as graph and usually referred to as a singleton graph
+
+-> G(V,E)
+Types of Graph:
+
+-> Directed Graph - Edges with direction
+-> Undirected Graph - Edges without direction
+
+UseCases of Graph:
+1. Friendship between people:
+    -> people: nodes/vertices
+    -> Friendship: edges
+
+2. Distances between locations:
+    -> locations: nodes/vertices
+    -> Distances: edges
