@@ -1,3 +1,5 @@
+
+# Appraoch 1: Priority Queue
 import heapq
 
 class Solution:
@@ -62,3 +64,33 @@ if __name__ == '__main__':
             print(i,end=" ")
         print()
 # } Driver Code Ends
+        
+
+# Approach 2: BFS simulating priority queue greedy
+class Solution:
+
+    #Function to find the shortest distance of all the vertices
+    #from the source vertex S.
+    def dijkstra(self, V, adj, S):
+        #code here
+        distances = [float('inf')]*V
+        visited = [False]*V
+        distances[S] = 0
+    
+        def updateDistance(vertex):
+            if visited[vertex] == False:
+                visited[vertex] = True
+                for edge in adj[vertex]:
+                    if distances[vertex]+edge[1]<distances[edge[0]]:
+                        distances[edge[0]] = distances[vertex]+edge[1]
+                mini = float('inf')
+                index = -1
+                for i in range(V):
+                    if mini>distances[i] and visited[i] == False:
+                        mini = distances[i]
+                        index = i
+                updateDistance(index)
+            else:
+                return
+        updateDistance(S)
+        return distances
