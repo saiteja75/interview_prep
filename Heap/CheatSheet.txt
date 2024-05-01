@@ -1,0 +1,13 @@
+HEAP:
+A heap is a specialized tree-based data structure which is a complete tree that satisfies the heap property.
+
+Max heap - In a max heap, the value of a node must be greatest among the node values in its entire subtree. 
+The same property must be recursively true for all nodes in the tree.
+
+Min heap - In a min heap, the value of a node must be smallest among the node values in its entire subtree. 
+The same property must be recursively true for all nodes in the tree.
+
+Techniques:
+
+Mention of K:
+If you see a top or lowest k being mentioned in the question, it is usually a signal that a heap can be used to solve the problem, 
