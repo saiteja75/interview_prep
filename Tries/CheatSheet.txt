@@ -1,0 +1,4 @@
+Tries:
+-> It is a special tries which is used to store and search the strings in more efficient.
+-> this can be used to represent set of words
+-> 
