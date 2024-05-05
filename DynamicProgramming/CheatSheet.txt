@@ -1,0 +1,28 @@
+Dynamic Programming:
+-> Dynamic Programming (DP) is usually used to solve optimization problems.
+
+-> Dynamic programming amounts to breaking down an optimization problem into simpler sub-problems, 
+   and storing the solution to each sub-problem so that each sub-problem is only solved once.
+
+Sub-Problem:
+Sub-problems are smaller versions of the original problem. In fact, sub-problems often look like a reworded version of the original problem. 
+If formulated correctly, sub-problems build on each other in order to obtain the solution to the original problem.
+
+When to use DP?
+
+-> When problem indicates maximum or minimum solution given certain constraints
+
+Steps to solve DP:
+-> Identify the sub-problem 
+-> Solve the sub-problem
+-> store the value and re-use when required
+
+Dynamic Programming Approaches:
+-> Top-down Approach: 
+    we solve the large problem by breaking it into smaller problem
+
+-> Bottom-up Approach:
+    start with smaller problem and build each solution to reach larger problem.Space complexity can be saved by using this approach
+
+
+
