@@ -9,7 +9,7 @@ Return an array answer of length n where answer[i] is the number of people the i
 '''
 
 # Approach: using monotonic stack and start from right
-def canSeePersonsCount(heights: list[int]) -> list[int]:
+def canSeePersonsCount(heights: List[int]) -> List[int]:
     # length of the heights
     n = len(heights)
     # stack to main the monotonic stack to track the next greater element
