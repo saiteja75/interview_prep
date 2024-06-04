@@ -1,0 +1,24 @@
+Low Level Design (LLD):
+
+-> LLD or low-level design is a component-level design process that follows step by step refinement process.
+
+-> In this Process we understand the finalized requirements and then design the components (objects) and then define 
+   the interactions between the components.
+
+-> Drawing the Class Diagrams will be helpful for better understanding the follows
+
+Class Diagrams Contains
+-> Classes
+-> Relations
+
+Classes Contains:
+-> properties
+-> methods
+
+ROAD MAP FOR LLD:
+
+1. OOPs (Object Oriented Principles)
+2. Process of analyzing and designing (relating real things into objects)
+3. Design Patterns
+4. UML Diagrams
+5. SOLID Principles
