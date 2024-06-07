@@ -9,12 +9,3 @@ The following are the four principles of object-oriented programming:
 3. Inheritance
 4. Polymorphism
 
-Encapsulation:
--> This is the principle to hide the data which is not required by the end user and only need for internal purpose
--> Its like preventing from unauthorized accessible
--> Class in OOProgramming is a example
--> It protects your classes from accidental changes or deletions and promotes code reusability and maintainability.
--> There are 3 different access specifiers which defines the level of access
-    1. public - any one can access this methods or properties
-    2. protected - methods or properties which are protected can only be accessed within itself and those which are created from them (inheritence)
-    3. private - methods or properties which are private can only be accessed within itself and no other external things can access these

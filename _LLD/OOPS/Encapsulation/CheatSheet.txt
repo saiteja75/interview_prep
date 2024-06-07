@@ -1,0 +1,48 @@
+Encapsulation:
+-> Encapsulation is a process or technique that binds the data(member variables) and behavior(methods) together in a single unit
+-> This is the principle to hide the data which is not required by the end user and only need for internal purpose
+-> Its like preventing from unauthorized accessible
+-> Class, interfaces,enums in OOProgramming is a example
+-> It protects your classes from accidental changes or deletions and promotes code reusability and maintainability.
+-> There are 3 different access specifiers which defines the level of access
+    1. public - any one can access this methods or properties
+    2. protected - methods or properties which are protected can only be accessed within itself and those which are created from them (inheritence)
+    3. private - methods or properties which are private can only be accessed within itself and no other external things can access these
+
+Real World Examples/ Usecases of encapsulation:
+
+->  Capsule, as capsule binds all it's medicinal materials within it, similarly in java encapsulation units(class, interface, enums etc) encloses all it's data and behavior within it.
+-> The bag contains different stuffs like pen, pencil, notebook etc within it, in order to get any stuff you need to open that bag, similarly in java an encapsulation unit contains it's data 
+    and behavior within it and in order to access them you need an object of that unit.
+
+Advantages:
+-> Security: Encapsulation helps to secure your code, since it ensures that other units(classes, interfaces etc) 
+    can not access the data directly.
+
+-> Flexibility: Encapsulation makes your code more flexible, which in turn allows the programmer to change or 
+    update the code easily.
+
+-> Control : Encapsulation gives the control over data stored in the member variables. For example, 
+    you can control what value can be set in age of a Person given in above program without breaking the code.
+
+-> Reusability: Encapsulated code or unit can be reused anywhere inside the application or across multiple applications.
+     For example, if you have Person or any other class in your application you can reuse that class wherever needed.
+
+-> Maintainability: Encapsulated units are easy to maintain as you can locate or change the things easily.
+
+Best Practices:
+
+1. Create protected or private attributes or methods if they are used only by you. 
+    Protected or private members get excluded from documentation and signal others that they can be changed by you, 
+    the developer, without any notice, thus discouraging them from using them.
+
+2. Prioritize clarity over obscurity. As encapsulation aims to improve code maintainability and data protection, 
+    don’t completely hide important implementation details of your class.
+
+
+Links:
+-> https://www.quora.com/What-are-some-real-world-example-of-encapsulation-and-abstraction-and-how-are-they-different-yet-related
+
+-> https://refreshjava.com/java/encapsulation-in-java#:~:text=Real%20world%20example%20of%20encapsulation&text=The%20bag%20contains%20different%20stuffs,an%20object%20of%20that%20unit.
+
+
