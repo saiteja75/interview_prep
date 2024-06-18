@@ -1,0 +1,8 @@
+Polymorphism:
+-> The concept of polymorphism helps you to perform a single action in various ways. It helps you to define one interface and benefit from multiple implementations. The term to explain polymorphism is such that the word “poly” indicates many and “morphs” indicates forms. 
+    Hence, it implies many forms.
+
+
+
+Links:
+-> https://www.geeksforgeeks.org/polymorphism-in-python/

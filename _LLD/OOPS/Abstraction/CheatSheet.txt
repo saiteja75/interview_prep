@@ -1,0 +1,34 @@
+Abstraction:
+-> This Principle is about the hiding unecessary information and only information necessary for end user
+
+
+Real World Examples/ Usecases of abstraction:
+
+-> ATM, a real-life situation where a man needs to withdraw cash from an ATM. 
+    He will insert his credit or debit card and enter the PIN, and the ATM will deliver the cash 
+    if the information provided is correct.
+
+    At the backend, many processes run during the complete process. The Bank will receive the request and 
+    check the customer’s account balance. If the balance in the given bank is sufficient, the machine will 
+    verify the PIN. It will process the transaction if the information is correct.
+
+    This complete process happens at the backend, which the user does not have to worry about.
+     He only enters the bank PIN and withdraws the required cash. This is where abstraction comes in OOPS. 
+
+Types of Abstraction:
+There are two types of abstraction. 
+-> One is data abstraction, wherein the original data entity is hidden via a data structure that can internally 
+    work through the hidden data entities. 
+-> Another type is called process abstraction. It refers to hiding the underlying implementation details of a process.
+
+
+
+
+Advantages:
+
+
+
+Best Practices:
+
+
+Links:
