@@ -22,3 +22,6 @@ ROAD MAP FOR LLD:
 3. Design Patterns
 4. UML Diagrams
 5. SOLID Principles
+
+References:
+-> https://docs.google.com/document/d/17Chm2AvygUsf80mGm_6PrrETZAd3bKr9sQelOE1z9gY/edit
