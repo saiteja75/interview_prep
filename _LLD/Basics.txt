@@ -15,13 +15,39 @@ Classes Contains:
 -> properties
 -> methods
 
-ROAD MAP FOR LLD:
+STEPS TO LEARN LLD:
+1. Understand the basics of object oriented design and principles.
+   i. OOD Techniquess
+2. Understand object-oriented process of analysis and design
+   i. UML Diagrams
+3. Knowledge of design patterns to solve and write code.
+   i. Ability to map usecase to a design pattern
+4. Understanding SOLID Principles.
+   i. Single Responsibility Principle
+   ii. Open/Closed principle
+   iii. Liskov-Substitution Principle
+   iv. Interface Segregation Principle
+   v. Dependency Inversion Principle
 
-1. OOPs (Object Oriented Principles)
-2. Process of analyzing and designing (relating real things into objects)
-3. Design Patterns
-4. UML Diagrams
-5. SOLID Principles
+How to Practice:
+1. Pick a problem, analyze and solve it. Then compare the solutions with other solution.
+2. Watch mock interviews and solutions.
+
+How to Bridge Theory to Practice:
+1. Can Study below papers:
+   i. Design patterns: Abstraction and re-use of Object-Oriented Design
+   ii. OOAD Design Principles: The Coffee Maker
+2. Some Practice Questions:
+   i. https://github.com/prasadgujar/low-level-design-primer
+   ii. https://github.com/ashishps1/awesome-low-level-design
+    
+
+Building Blocks of LLD:
+1. Requirement Gathering
+2. Laying Down the Usecases
+3. UML/Class Diagrams
+4. OOD to model problem
+5. Implement Code (Design Patterns + SOLID Principles)
 
 References:
 -> https://docs.google.com/document/d/17Chm2AvygUsf80mGm_6PrrETZAd3bKr9sQelOE1z9gY/edit

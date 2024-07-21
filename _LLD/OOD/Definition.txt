@@ -1,0 +1,40 @@
+
+OOD Techniques:
+1. Object Oriented Design Techniques is based on Objects based real-entities
+
+What are Objects and Classes?
+
+Object:
+-> objects are similar to real world objects like cars,buttons etc
+-> object are which hold some information and some behaviour
+    1. Information - data/attributes
+    2. behaviour - properties
+
+eg: 
+1. CAR 
+    Information:
+        1. Wheel
+        2. color
+        3. engine
+    
+    Behaviour:
+        1. Drive
+        2. Stop
+        3. Accelerate
+
+Classes:
+-> As we learnt about object, Same type objects can have different information and behaviour so we need
+classify these object which is called Classes
+-> Thats a reason we say classes are blueprint of objects
+
+NVT (Noun verb Technique):
+
+
+Techniques of OOD
+The following are the four principles of object-oriented programming:
+
+1. Encapsulation
+2. Abstraction
+3. Inheritance
+4. Polymorphism
+
