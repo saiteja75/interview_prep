@@ -51,7 +51,7 @@ class AWSProvider(CloudHostingProvider,CloudStorageProvider,CloudCDNProvider):
 
 
 # this is dropbox server provider
-# this is voilating Interface segregation principle
+# this is not voilating Interface segregation principle
 class DropboxProvider(CloudStorageProvider):
     def __init__(self) -> None:
         super().__init__()
