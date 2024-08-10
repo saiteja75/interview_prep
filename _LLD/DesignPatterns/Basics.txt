@@ -1,0 +1,22 @@
+What are Design Patterns?
+-> There are solutions to solve commonly occuring problem in software design. using
+ these patterns and customizing to solve our problem
+
+There are Three types of Design Patterns:
+1. Creational Design Patterns: 
+    -> Provides Object Creation Mechanisms for flexibility and re-usability
+
+2. Structural Design Patterns:
+    -> Explains how to assemble objects and classes together into large structure
+    while keeping the structure fexible and re-usable.
+
+3. Behavioral Patterns:
+    -> These Patterns provide ways for effective communication and assignments
+    between the objects
+
+
+
+
+
+ References:
+ -> https://refactoring.guru/design-patterns
