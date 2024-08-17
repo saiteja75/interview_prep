@@ -12,6 +12,10 @@ Usecases:
 can be used across the application to update the shared resource and provide same
 information to every one who needs the shared resource.
 
+-> Whenever we need to open the database connection and close it
+
+-> logger system
+
 Solution:
 All implementations of the Singleton have these two steps in common:
 -> Make the default constructor private, to prevent other objects from using 
