@@ -16,6 +16,12 @@ information to every one who needs the shared resource.
 
 -> logger system
 
+-> Cache Object
+
+-> File System
+
+-> Print Spooler
+
 Solution:
 All implementations of the Singleton have these two steps in common:
 -> Make the default constructor private, to prevent other objects from using 
@@ -24,3 +30,5 @@ the new operator with the Singleton class.
 -> Create a static creation method that acts as a constructor. Under the hood, 
 this method calls the private constructor to create an object and saves it in 
 a static field. All following calls to this method return the cached object.
+
+Reference: https://blog.algomaster.io/p/singleton-design-pattern
