@@ -1,0 +1,24 @@
+Factory Method Pattern:
+-> it is structural patterns
+-> Creating properties and method in super class and overwritting/alter the properties and method in
+child class
+
+Factory Method solves below problem:
+-> if you want to use the same functionality to multiple usecase we use this pattern to create 
+a factory class which will be extended by the child classes and override the necessary methods
+
+
+When to use factory method:
+-> Use the Factory Method when you don’t know beforehand the exact types and 
+dependencies of the objects your code should work with.
+-> Use the Factory Method when you want to provide users of your library or 
+framework with a way to extend its internal components.
+-> Use the Factory Method when you want to save system resources by reusing 
+existing objects instead of rebuilding them each time.
+
+Advantages:
+-> We are not tightly coupling the creator and concreta classes
+-> Follows Single Responsibility Principle
+-> Follows Open/Closed Principle
+
+Reference: https://refactoring.guru/design-patterns/factory-method
