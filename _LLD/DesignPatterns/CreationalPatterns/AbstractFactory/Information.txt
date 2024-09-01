@@ -5,5 +5,10 @@ Abstract Factory Pattern:
 specifying their concrete classes, 
 -> Abstract Factory Pattern is a way of organizing how you create groups of things that are related to each other.
 
+Usecases:
+-> your code needs to work with various families of related products, but you don’t want it to depend on the concrete 
+classes of those products—they might be unknown beforehand or you simply want to 
+allow for future extensibility.
+
 
 
