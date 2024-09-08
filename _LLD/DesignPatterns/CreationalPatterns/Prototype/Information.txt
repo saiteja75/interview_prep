@@ -1,0 +1,9 @@
+Prototype Pattern:
+-> It is creational design pattern
+-> This pattern lets you copy existing objects without making your code dependent 
+on their classes.
+-> General Approach of creating a object of same class and copying the values from object
+might not be correct because all the private variables are not copied
+
+When to use Prototype Pattern:
+-> Use the Prototype pattern when your code shouldn’t depend on the concrete classes of objects that you need to copy.
