@@ -1,0 +1,20 @@
+Adapter Pattern:
+-> This is Structural pattern
+-> This pattern allows object with incompatible interfaces to collaborate
+-> Adapter is a special object that converts the interface of one object so that another object can understand it.
+-> This is similar to power plug adapter socket.
+
+Usecases:
+-> When an application want to use other libraries by integrating but that data accepted by other
+libraries might be different from the data present in your application. In this cases 
+you can use Adapter pattern
+-> Use the Adapter class when you want to use some existing class, 
+but its interface isn’t compatible with the rest of your code.
+
+How it is implemented?
+-> Adapter Object is created where it accepts application understanding interface and converts
+it into 3rd party understanding libraries interface
+
+Follows:
+-> Single Responsibility Principle
+-> Open/Closed Principle
