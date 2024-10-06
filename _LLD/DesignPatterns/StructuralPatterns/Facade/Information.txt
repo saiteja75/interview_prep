@@ -1,0 +1,17 @@
+Facade Pattern:
+-> It is Structural Pattern
+-> It provides a simplified interface to a libraries/framework or complex set of classes
+-> One Facade can use another facade
+
+When to apply facade pattern:
+-> Use the Facade pattern when you need to have a limited but straightforward interface to a complex subsystem.
+-> Use the Facade when you want to structure a subsystem into layers.
+-> Use the facade pattern when you want to execute some step in a order every time when you want to use that particular service
+
+Real world Example
+-> when you order an item through sales person (he is facede), sales person takes care of all the internal process 
+
+
+References:
+-> https://refactoring.guru/design-patterns/facade
+-> https://www.youtube.com/watch?v=GYaBXK54eLo

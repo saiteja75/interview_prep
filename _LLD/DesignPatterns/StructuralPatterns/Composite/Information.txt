@@ -1,0 +1,16 @@
+Composite Pattern:
+-> It is structural pattern
+-> lets you compose objects into tree structures and then work with these structures as if they were individual objects.
+-> Allows to treat individual objects and composition of objects uniformly
+
+Examples:
+-> get the price of Products(tree like structure):
+   -> It can have Products
+   -> It can have boxes
+   -> boxes can have Products
+
+-> get total songs from SongComponent
+   SongComponent:
+   -> It can have a songs
+   -> It can have groupsongs
+      - groupsongs have songs

@@ -1,0 +1,27 @@
+Decorator Pattern:
+-> It is Structural pattern
+-> lets you attach new behaviors to objects by placing these objects 
+inside special wrapper objects that contain the behaviors.
+-> use when you want to add dynamic functionality during runtime
+-> “Wrapper” is the alternative nickname for the Decorator pattern that clearly expresses the main idea of the pattern.
+A wrapper is an object that can be linked with some target object. The wrapper contains the same set of methods as 
+the target and delegates to it all requests it receives. However, the wrapper may alter the result by doing 
+something either before or after it passes the request to the target.
+
+When to use Decorator Pattern:
+-> Use the Decorator pattern when you need to be able to assign extra behaviors to objects at runtime without breaking 
+the code that uses these objects.
+-> Use the pattern when it’s awkward or not possible to extend an object’s behavior using inheritance.
+
+Real World Example:
+-> When you want to send a notification to different platform (like email,SMS,Facebook,Whatsapp), instead of creating multiple
+classes, we can wrap the class one over the other like composition or aggregator
+-> Wearing clothes is an example of using decorators. When you’re cold, you wrap yourself in a sweater. 
+If you’re still cold with a sweater, you can wear a jacket on top. If it’s raining, 
+you can put on a raincoat. All of these garments “extend” your basic behavior but aren’t part of you, 
+and you can easily take off any piece of clothing whenever you don’t need it.
+-> Pizza with differen toppings
+
+
+References:
+->https://refactoring.guru/design-patterns/decorator
